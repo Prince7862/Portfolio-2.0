@@ -1,0 +1,87 @@
+h1{
+    color: purple;
+}
+        
+h2{
+    color:royalblue;
+}
+.header{
+    background-color: dodgerblue;
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu{
+    align-self: center;
+    margin-left: 50px;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    text-align: center;
+}
+.aboutmeheader{
+    background-color: cyan;
+    display:flex;
+    justify-content: space-between;
+}
+
+.aboutmemenu{
+    align-self: center;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item{
+    text-align: center;
+
+}
+
+.item p{
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+a:link{
+    color:springgreen;
+}
+
+body{
+   background-color: #ffffff
+}
+
+a:visited{
+    color:snow;
+}
+
+.menu a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer:hover img{
+    opacity: 0.33;
+}
+
+
+
